@@ -137,6 +137,8 @@ plt.xlabel("Number of Iterations")
 plt.ylabel("Cost")
 plt.show()
 
+############################################ MAKING PREDICTIONS AND DETERMINING ACCURACY ############################################
+
 # Make the predictions
 y_pred = predict(X_test, params_optimal)
 
