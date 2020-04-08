@@ -5,7 +5,7 @@ Spam vs Ham Classifier that classifies whether a message is spam or ham using Lo
 For running the classifier, I shall recommend installing anaconda for python 3.7. This ensures all the basic dependencies. Moreover, you may create a virtual environment using the environment.yml file uploaded in the repository. The command to create the virtual environment with the environment.yml file is:
 <pre><code>conda env create -f environment.yml</code></pre>
 The first line of .yml file sets the name of the environment 
-<pre><code>conda activate <environment_name> </code></pre>
+<pre><code>conda activate {env_name} </code></pre>
 
 ### STEPS TO CREATE THE FILTER
 #### 1. DATA PREPROCESSING:
